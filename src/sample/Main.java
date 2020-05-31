@@ -27,7 +27,7 @@ public class Main extends Application {
         });
         saveButton.setOnAction(e ->{
             try {
-                simpleFileChooser.save("temp.pdf");
+                simpleFileChooser.save();
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
