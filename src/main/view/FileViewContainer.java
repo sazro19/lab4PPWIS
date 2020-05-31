@@ -49,7 +49,7 @@ public class FileViewContainer {
         this.fileName = new TextField();
         this.filterContainer = new VBox();
         this.filterRegExpr = new TextField();
-        this.filterButton = new Button("Filter files by RegExpr");
+        this.filterButton = new Button("Filter files");
         this.filterButton.setOnAction(filterEvent);
         configHomeButton();
         configContainers();
